@@ -1,0 +1,5 @@
+本文件夹内的内容直接复制到G盘（存放收集到的推特数据的盘）里即可运行。
+
+archive_trilateral.py按语言和提及国家分类后保存至preprocessed_for_trilateral_xxx。
+之后，segmentation_trilateral.py将中文、日语分词并计算词频，结果保存到preprocessed_for_trilateral_xxx/for_draw_word_vector文件夹。
+最后，drawwordvector_trilateral.py使用word2vec获得词向量，并使用TSNE降维后绘制词向量图，保存至preprocessed_for_trilateral_xxx/for_draw_word_vector/word_vector_images。
